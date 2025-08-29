@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hstyle h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.hstyle h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+nav.nstyle {
+    background-color: #1b1f23;
+    padding: 12px;
+    text-align: center;
+}
+
+nav.nstyle a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav.nstyle a:hover {
+    color: #ff9800;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.text h1 {
+    color: #0d47a1;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn:hover {
+    background-color: #1565c0;
+    transform: scale(1.05);
+}
+
+.foot {
+    background-color: #1b1f23;
+    color: #ccc;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+}
+
+.foot:hover {
+    color: white;
+}
+
+.box {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+@media (max-width: 768px) {
+    .hstyle h1 {
+        font-size: 28px;
+    }
+
+    nav.nstyle a {
+        margin: 0 8px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
